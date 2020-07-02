@@ -19,7 +19,6 @@
 }
 
   /* Create a sticky/fixed navbar */
-  @media screen and (max-width: 767px) {
   #navbar-mobile {
     overflow: hidden;
     background-color: #00336e;
@@ -46,14 +45,12 @@
   }
 
 
-}
   
 .space{
   padding-top: 250px;
 }
 
 
-@media screen and (min-width: 768px) {
   /* Create a sticky/fixed navbar */
   #navbar {
     overflow: hidden;
@@ -82,7 +79,6 @@
   }
 
 
-}
 
 
 
