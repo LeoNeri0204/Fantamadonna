@@ -32,6 +32,8 @@
     justify-content:center;
     text-align: center;
     border-bottom: 5px solid #ad8630;
+    border-left: 0px #ad8630;
+
   }
   
   /* Style the logo */
@@ -51,7 +53,7 @@
 }
 
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   /* Create a sticky/fixed navbar */
   #navbar {
     overflow: hidden;
