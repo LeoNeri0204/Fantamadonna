@@ -20,7 +20,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
       document.getElementById("logo-mobile").style.height = "100px";
       document.getElementById("logo-mobile").style.float = "right";
-      document.getElementById("logo-mobile").style.paddingRight = "210px";
+      document.getElementById("logo-mobile").style.paddingRight = "200px";
 
     } else {
       document.getElementById("navbar-mobile").style.padding = "30px ";
