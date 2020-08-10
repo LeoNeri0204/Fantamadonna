@@ -13,14 +13,14 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       document.getElementById("navbar-mobile").style.padding = "10px";
       document.getElementById("navbar-mobile").style.borderRadius = "0px 0px 0px 300px";
-      document.getElementById("navbar-mobile").style.marginLeft = "200px";
+      document.getElementById("navbar-mobile").style.marginLeft = "60%";
       document.getElementById("navbar-mobile").style.color = "#ad8630";
       document.getElementById("navbar-mobile").style.borderLeft = "5px";
       document.getElementById("navbar-mobile").style.borderLeftStyle = "solid";
 
       document.getElementById("logo-mobile").style.height = "100px";
       document.getElementById("logo-mobile").style.float = "right";
-      document.getElementById("logo-mobile").style.paddingRight = "200px";
+      document.getElementById("logo-mobile").style.paddingRight = "65%";
 
     } else {
       document.getElementById("navbar-mobile").style.padding = "30px ";
@@ -28,8 +28,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
       document.getElementById("navbar-mobile").style.marginLeft = "0px";
       document.getElementById("navbar-mobile").style.borderLeft = "0px";
       document.getElementById("navbar-mobile").style.borderLeftStyle = "solid";
-
-
 
       document.getElementById("logo-mobile").style.float = "none";
       document.getElementById("logo-mobile").style.height = "200px";
